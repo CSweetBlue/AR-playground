@@ -404,23 +404,41 @@ public class SolarActivity extends AppCompatActivity {
     sunVisual.setOnTapListener(
         (hitTestResult, motionEvent) -> solarControls.setEnabled(!solarControls.isEnabled()));
 
+//    createPlanet("Mercury", sun, 0.4f, 47f, mercuryRenderable, 0.019f);
+//
+//    createPlanet("Venus", sun, 0.7f, 35f, venusRenderable, 0.0475f);
+//
+//    Node earth = createPlanet("Earth", sun, 1.0f, 29f, earthRenderable, 0.05f);
+//
+//    createPlanet("Moon", earth, 0.15f, 100f, lunaRenderable, 0.018f);
+//
+//    createPlanet("Mars", sun, 1.5f, 24f, marsRenderable, 0.0265f);
+//
+//    createPlanet("Jupiter", sun, 2.2f, 13f, jupiterRenderable, 0.16f);
+//
+//    createPlanet("Saturn", sun, 3.5f, 9f, saturnRenderable, 0.1325f);
+//
+//    createPlanet("Uranus", sun, 5.2f, 7f, uranusRenderable, 0.1f);
+//
+//    createPlanet("Neptune", sun, 6.1f, 5f, neptuneRenderable, 0.074f);
+
     createPlanet("Mercury", sun, 0.4f, 47f, mercuryRenderable, 0.019f);
 
-    createPlanet("Venus", sun, 0.7f, 35f, venusRenderable, 0.0475f);
+    createPlanet("Venus", sun, 0.5f, 35f, venusRenderable, 0.0475f);
 
-    Node earth = createPlanet("Earth", sun, 1.0f, 29f, earthRenderable, 0.05f);
+    Node earth = createPlanet("Earth", sun, 0.6f, 29f, earthRenderable, 0.05f);
 
     createPlanet("Moon", earth, 0.15f, 100f, lunaRenderable, 0.018f);
 
-    createPlanet("Mars", sun, 1.5f, 24f, marsRenderable, 0.0265f);
+    createPlanet("Mars", sun, 0.7f, 24f, marsRenderable, 0.0265f);
 
-    createPlanet("Jupiter", sun, 2.2f, 13f, jupiterRenderable, 0.16f);
+    createPlanet("Jupiter", sun, 0.8f, 13f, jupiterRenderable, 0.16f);
 
-    createPlanet("Saturn", sun, 3.5f, 9f, saturnRenderable, 0.1325f);
+    createPlanet("Saturn", sun, 0.8f, 9f, saturnRenderable, 0.1325f);
 
-    createPlanet("Uranus", sun, 5.2f, 7f, uranusRenderable, 0.1f);
+    createPlanet("Uranus", sun, 0.9f, 7f, uranusRenderable, 0.1f);
 
-    createPlanet("Neptune", sun, 6.1f, 5f, neptuneRenderable, 0.074f);
+    createPlanet("Neptune", sun, 1.0f, 5f, neptuneRenderable, 0.074f);
 
     return base;
   }
